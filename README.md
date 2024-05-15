@@ -32,4 +32,5 @@ Sistem ini terdiri dari 3 komponen utama (LED, Buzzer, sensor gerak (PIR), senso
 ![sub1](https://github.com/aprisamutiara/pa-praktikum-iot-unmul-c4/assets/123526722/53cc4368-8fcb-4749-8799-0fcf18c8b5f2)
 
 **Board Schematic Publisher & Subscriber**
+![board skema](https://github.com/aprisamutiara/pa-praktikum-iot-unmul-c4/assets/123526722/388da9f3-b654-40d9-8977-2b31594e1e32)
 
