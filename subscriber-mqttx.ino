@@ -1,8 +1,8 @@
 #include <ESP8266WiFi.h>
 #include <PubSubClient.h>
 
-const char* ssid = "apakau";
-const char* password = "baniiiii"; 
+const char* ssid = "Ipppppp";
+const char* password = "ipppppp7"; 
 const char* mqtt_broker = "broker.emqx.io";
 const int mqtt_port = 1883; 
 
@@ -84,7 +84,6 @@ void reconnect() {
     Serial.printf("Client %s mencoba terhubung ke broker MQTT\n", clientId.c_str());
     if (client.connect(clientId.c_str())) {
       Serial.println("Berhasil terhubung");
-      // client.subscribe("pa/iot/suhu");
       client.subscribe("pa/iot/suhu");
     } else {
       Serial.print("Gagal terhubung");
